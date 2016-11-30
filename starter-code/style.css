@@ -39,21 +39,69 @@ h2 {
 	height: 50%;
 	width: 50%;
 	display: inline-block;
+	float: left;
+}
+
+.score {
+	width: 50%;
+	float: right;
+}
+
+.wonGames, .lostGames {
+	padding: 20px;
+	display: block;
+	width: 240px;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	border-radius: 5px;
+}
+
+.wonGames {
+	border: 2px solid #55D273;
+	color: #55D273;
+	margin: 200px 0 0 0;
+}
+
+.lostGames {
+	border: 2px solid #D00000;
+	color: #D00000;
+	margin: 0;
+}
+
+button {
+	padding: 20px;
+	border: 2px solid #808080;
+	border-radius: 5px;
+	color: #808080;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	width: 140px;
+}
+
+button:hover {
+	background-color: #808080;
+	color: #FFFFFF;
 }
 
 .card {
 	height: 200px;
 	width: 150px;
 	border: 1px solid black;
-	border-radius: 10px;
+	border-radius: 27px;
 	background-color: rgb(255,255,0);
 	float: left;
 	margin: 8%;
 }
 
+.card img {
+	max-width: 150px;
+}
+
 footer {
 	font-style: italic;
 	background-color: #808080;
+	clear: both;
 }
 
 .name {
